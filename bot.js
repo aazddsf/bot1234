@@ -69,22 +69,6 @@ client.on("guildMemberAdd", m => {
 
 
 
-client.on("ready", async  => {
-setInterval(function(){
-client.channels.find('id', '521349751879368705').setName("W");
-client.channels.find('id', '521349751879368705').setName("We");
-client.channels.find('id', '521349751879368705').setName("Wel");
-client.channels.find('id', '521349751879368705').setName("Welc");
-client.channels.find('id', '521349751879368705').setName("Welco");
-client.channels.find('id', '521349751879368705').setName("Welcom");
-client.channels.find('id', '521349751879368705').setName("Welcome");
-client.channels.find('id', '521349751879368705').setName("Welcome T");
-client.channels.find('id', '521349751879368705').setName("Welcome To");
-client.channels.find('id', '521349751879368705').setName("Welcome To O");
-client.channels.find('id', '521349751879368705').setName("Welcome To OB");
-client.channels.find('id', '521349751879368705').setName("Welcome To OBX");
-  }, 3000);
-});
 
 
 

@@ -333,8 +333,7 @@ if (message.content.startsWith(adminprefix + 'twitch')) {
       .setDescription(`
      
 ••【 عند وجود اي مشكله توجه لسيفر السبورت 】••
-••【 لطـلب البــوتــات تـــواصـل مـع الـســبـورت 】••
-⚙ https://discord.gg/ZfeTqSP ⚙
+••【 Zine.#5077 لطـلب البــوتــات تـــواصـل مـع  】••
 ${prefix}play ⇏ لتشغيل أغنية برآبط أو بأسم
 ${prefix}skip ⇏ لتجآوز الأغنية الحآلية
 ${prefix}pause ⇏ إيقآف الأغنية مؤقتا
@@ -350,7 +349,7 @@ ${prefix}g ⇏ تغير صورة البوت
 ${prefix}t ⇏ تغيير تويتش البوت
 •••【 ابري ذمتي امام الله كل من سمع الاغاني 】•••
 `)
-   .setFooter("By : Zap.#1461")
+   .setFooter("By : -$.Viňny#1056")
    message.channel.sendEmbed(embed)
    
    }

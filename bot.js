@@ -20,8 +20,8 @@ const fetchVideoInfo = require('youtube-info');
 const YouTube = require('simple-youtube-api');
 const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const sql = require("sqlite");
- const dateFormat = require('dateformat');
- const pretty = require('pretty-ms')
+const dateFormat = require('dateformat');
+const pretty = require('pretty-ms')
 const sWlc = {}
 
 const prefix = "$"
@@ -106,7 +106,6 @@ client.on('ready', () => {
     client.user.setStatus("idle")
 });
 //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-const prefix = "$"
 client.on('message', async msg => { // eslint-disable-line
     if (msg.author.bot) return undefined;
     //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'

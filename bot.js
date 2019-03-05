@@ -3,7 +3,6 @@ const ytdl = require("ytdl-core");
 const { Client, Util } = require('discord.js');
 const fs = require('fs');
 const getYoutubeID = require('get-youtube-id');
-const moment = require('moment');
 const db = require('quick.db');
 const client = new Discord.Client();  
 const giphy = require('giphy-api')();    
